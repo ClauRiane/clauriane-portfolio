@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5f6e57;
+}
+
+body{
+    background-color:#d1cbb2;
+    text-align: center;
+}
+
+.bloc{
+    background-color: #95a38b;
+    border-radius: 15px;
+}
