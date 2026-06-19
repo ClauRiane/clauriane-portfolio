@@ -1,3 +1,29 @@
+@font-face {
+    font-family: "Bitcount";
+    src: url("./polices/Bitcount_Grid_Double/BitcountGridDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("./polices/Lobster_Two/LobsterTwo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoFlex";
+    src: url("./polices/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SmoochSans";
+    src: url("./polices/Smooch_Sans/SmoochSans-VariableFont_wght.ttf") format("truetype");
+}
+
+nav ul{
+    display:flex;
+    flex-direction:row;
+    gap: 50px;
+}
+
 header{
     display: flex;
     position: sticky;
@@ -5,15 +31,76 @@ header{
     flex-direction: column;
     align-items: center;
     background-color: #5f6e57;
+    color: white;
+    border-radius: 0 0 20px 20px;
 }
 
 body{
+    display:flex;
+    flex-direction:column;
     background-color:#d1cbb2;
     text-align: center;
+    font-family:RobotoFlex;
+    color:#ffe8ed;
+    letter-spacing:1px;
+}
+
+section {
+    scroll-margin-top: 30em;
+    padding-top: 10px;
+}
+
+section div{
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
 }
 
 .bloc{
+    display: flex;
     background-color: #95a38b;
     border-radius: 15px;
     padding: 8px;
+    justify-content: center;
+    align-content: center;
+
+}
+h1{
+    font-family:Lobster;
+    font-size:60px;
+    color:#ffe8ed;
+}
+
+h2{
+    font-family:SmoochSans;
+    font-size:30px;
+    letter-spacing:2px;
+    color:#353440;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li{
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing:1px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    border-style:solid;
+    border-color:#ffe8ed;
+    border-radius:10px;
+    width:98%;
+    padding:4px;
+    margin:15px;
 }
