@@ -15,4 +15,5 @@ body{
 .bloc{
     background-color: #95a38b;
     border-radius: 15px;
+    padding: 8px;
 }
